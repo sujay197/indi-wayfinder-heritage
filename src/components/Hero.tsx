@@ -33,7 +33,7 @@ const Hero = () => {
             <Button variant="heritage" size="lg" className="w-full sm:w-auto">
               Start Exploring Heritage
             </Button>
-            <Button variant="outline" size="lg" className="w-full sm:w-auto border-white text-white hover:bg-white hover:text-primary">
+            <Button variant="ghost-white" size="lg" className="w-full sm:w-auto">
               Track Your Journey
             </Button>
           </div>
