@@ -113,12 +113,24 @@ export default {
             opacity: "0.8",
           },
         },
+        "bot-bounce": {
+          "0%, 100%": {
+            transform: "translateY(0) rotate(0deg)",
+          },
+          "25%": {
+            transform: "translateY(-2px) rotate(-2deg)",
+          },
+          "75%": {
+            transform: "translateY(2px) rotate(2deg)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in": "fade-in 0.5s ease-out",
         "pulse": "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "bot-bounce": "bot-bounce 3s ease-in-out infinite",
       },
     },
   },

@@ -10,7 +10,7 @@ const ChatBot = () => {
         className="rounded-full h-14 w-14 shadow-lg hover:shadow-xl hover-scale pulse transition-all duration-300"
         onClick={() => console.log("Chat opened")}
       >
-        <Bot className="h-10 w-10" />
+        <Bot className="h-10 w-10 animate-bot-bounce" />
       </Button>
     </div>
   );
