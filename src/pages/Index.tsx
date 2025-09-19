@@ -4,6 +4,7 @@ import TripTracking from "@/components/TripTracking";
 import Heritage from "@/components/Heritage";
 import Analytics from "@/components/Analytics";
 import Footer from "@/components/Footer";
+import ChatBot from "@/components/ChatBot";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <Heritage />
       <Analytics />
       <Footer />
+      <ChatBot />
     </div>
   );
 };
