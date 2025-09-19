@@ -1,4 +1,4 @@
-import { MessageCircle } from "lucide-react";
+import { Bot } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ChatBot = () => {
@@ -10,7 +10,7 @@ const ChatBot = () => {
         className="rounded-full h-14 w-14 shadow-lg hover:shadow-xl"
         onClick={() => console.log("Chat opened")}
       >
-        <MessageCircle className="h-6 w-6" />
+        <Bot className="h-6 w-6" />
       </Button>
     </div>
   );
